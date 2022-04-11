@@ -6,7 +6,7 @@ export const environment = {
   production: true,
   appName: "udagrambucket",
   apiHost:
-    "http://udagrambucket.s3-website-us-east-1.amazonaws.com",
+    "http://udagrambucket.s3-website-us-east-1.amazonaws.com/api/v0",
 };
 
 /*
