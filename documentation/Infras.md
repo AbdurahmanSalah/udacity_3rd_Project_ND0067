@@ -1,6 +1,6 @@
-# Infrastructure
+# Infrastructure of the Project
 
-## AWS services in use
+## In use AWS services :
 
 - **RDS**
   - provides a public accessible PostgreSQL dataase
