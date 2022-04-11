@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  appName: "Udagram",
+  appName: "udagram",
   apiHost: "http://localhost:3000/api/v0",
 };
 
