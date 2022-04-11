@@ -41,3 +41,11 @@ workflows:
           filters:
             branches:
               only: main
+      - build:
+          requires:
+          - install
+          context: udagram
+      - deploy:
+          requires:
+            - build
+          context: udagram # Uses secret env. variable declared in udagram
