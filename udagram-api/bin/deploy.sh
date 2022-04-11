@@ -1,1 +1,1 @@
-eb setenv DB_PORT=5432 EB_APP=udagram-api EB_ENV=udagram-api-dev JWT_SECRET=hello-from-other-side POSTGRES_DB=udagram POSTGRES_HOST=localhost POSTGRES_USERNAME=postgres POSTGRES_PASSWORD=kali && eb deploy --label app-220411_045323928176 udagram-api-dev
+eb setenv DB_PORT=5432 EB_APP=udagram-api EB_ENV=udagram-api-env JWT_SECRET=hello-from-other-side POSTGRES_DB=udagram POSTGRES_HOST=localhost POSTGRES_USERNAME=postgres POSTGRES_PASSWORD=kali && eb deploy --label app-220412_000204976179 udagram-api-env
